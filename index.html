@@ -8,18 +8,41 @@
       content="width=device-width, initial-scale=1.0"
     />
     <title>Document</title>
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&family=Libre+Franklin:wght@100;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <header>
-      <div class="header__container header">
+      <div class="container header">
         <span class="header__logo">
           <a
             href=""
             class="link__logo"
             rel="noreferrer noopener"
           >
-            <svg width="" height="">
-              <use></use>
+            <svg width="126" height="30">
+              <use
+                href="./images/symbol-defs.svg#icon-header"
+              ></use>
             </svg>
           </a>
         </span>
@@ -61,17 +84,14 @@
         </nav>
         <ul class="header__sign">
           <li class="header__sign--li">
-            <button class="header__sign--but" type="button">
+            <a class="header__sign--link" type="button">
               Sign in
-            </button>
+            </a>
           </li>
           <li class="header__sign--li">
-            <a
-              class="header__sign--link"
-              href=""
-              rel="noreferrer noopener"
-              >Get Started</a
-            >
+            <button type="button" class="header__sign--but">
+              Get Started
+            </button>
           </li>
         </ul>
       </div>

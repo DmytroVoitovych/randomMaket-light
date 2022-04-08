@@ -1,0 +1,33 @@
+.container{
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+body {
+    // position: relative; 
+    background-color: #ffffff;
+    color: #212121;
+    font-family: Libre Franklin, sans-serif;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+h1, h2, h3, h3, h5, h6, p{
+margin: 0;
+padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul, li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
