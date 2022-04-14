@@ -1,9 +1,11 @@
   header{
     //   padding: 33px 0;
-    background-color: black;
+    
+    background-color: transparent;
+    z-index: 5;
   }
 .header{
-    
+   
     display: grid;
     grid-template-columns: 1fr 1fr ;
     grid-auto-flow: column;
@@ -11,6 +13,8 @@
     grid-auto-columns: max-content;
     
     a {
+        display: grid;
+        justify-content: start;
         padding: 33px 0;
     }
 
@@ -44,7 +48,7 @@
     width: 4px;
     height: 4px;
     background: var(--white-color);
-    
+    margin-left: -5px;
     align-items: center;
 }
 
@@ -52,10 +56,7 @@
 
 
 
-.header__li:last-child{
-    // gap: 35px;
-    // position: relative;
-}
+
 
 
 .header__sign{
@@ -79,6 +80,7 @@ grid-template-columns: repeat(auto-fill, minmax(1fr));
 
 .header__sign--link{
  @extend %middle-font;
+ cursor: pointer
 }
 
 .header__sign--but{
@@ -87,4 +89,5 @@ padding: 11px 17px;
 border: 2px solid var(--white-color);
 border-radius: 4px;
 background-color: transparent;
+cursor: pointer;
 }

@@ -1,0 +1,61 @@
+.party{
+    padding: 150px 0;
+}
+
+.party__span{
+    position: relative;
+    font-weight: 700;
+        font-size: 24px;
+        line-height: 1.5;
+        color: var(--akcent-color);
+
+        margin-bottom: 15px;
+}
+
+.party__span::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    margin-left: 30px;
+    background-color: var(--akcent-color);
+    width: 30px;
+    height: 2px;
+}
+
+.party__desc{
+    max-width: 483px;
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 1.5;
+    color: var(--second-color);
+
+    b{
+       
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 1.5;
+        color: var(--editional-color);
+    }
+}
+
+.party__but{
+    font-family: 'Libre Franklin';
+padding: 14px 30px 16px 30px;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
+color: var(--white-color);
+text-align: center;
+background-color: var(--akcent-color);
+border-radius: 4px;
+border: 0;
+}
+
+.party__grid{
+    display:grid;
+    grid-template-columns:1fr  max-content;
+    grid-auto-flow:column ;
+    align-items: center;
+    grid-column-gap: 527px;
+    
+}

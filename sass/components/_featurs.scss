@@ -1,0 +1,72 @@
+.fetures{
+    @extend %basic-padding;
+}
+.features__block{
+    margin-bottom: 54px;
+}
+// скрытый елемент 
+.features__block > .features__title{
+    height: 0;
+    overflow: hidden;
+    position: absolute;
+    
+}
+
+ .features__desc{
+    max-width: 507px;
+    font-weight:  100;
+    font-size: 24px;
+    line-height: 1.5;
+    color: var(--second-color);
+
+    em{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 1.5;
+        color: var(--editional-color);
+    }
+}
+
+.features__title{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--editional-color);
+    margin-bottom: 13px;
+}
+
+.features__desc--item{
+    font-family: 'IBM Plex Mono';
+    font-size: 13px;
+    line-height: 1.84;
+    color: var(--second-color);
+}
+
+.features__list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+}
+
+.features__li{
+    
+   
+    max-width: 377px;
+    height: 330px;
+    padding: 54px 56px 109px 41px;
+    border: 1px solid #F7F7F7;
+    filter: drop-shadow(0px 5px 20px rgba(0, 0, 0, 0.05));
+
+    &:first-child{
+        padding: 51px 64px 109px 41px;
+    }
+
+    &:last-child{
+        padding: 51px 64px 85px 41px;
+    }
+
+    svg{
+        margin-bottom: 25px;
+    }
+}

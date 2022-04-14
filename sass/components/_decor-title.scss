@@ -1,0 +1,47 @@
+.decor__title{
+    height: 0;
+    overflow: hidden;
+    position: absolute;
+}
+.decir__pad{
+    position: relative;
+padding: 115px 0;
+text-align: center;
+border-bottom: 1px solid #E6E6E6;
+
+
+}
+
+.decor__desc{
+    max-width: 685px;
+   
+    text-align: center;
+    @extend %auto-margin;
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 1.5;
+    color: var(--second-color);
+    margin-bottom: 6px;
+
+    em{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 1.5;
+        color: var(--editional-color);
+    }
+}
+
+.decor__span{
+    position: absolute;
+    left: 48%;
+    // transform: translateX(-50%);
+    font-family: 'IBM Plex Mono';
+    font-size: 11px;
+    line-height: 1.64;
+    // text-align: center;
+    text-transform: uppercase;
+    @extend %auto-margin;
+    color: var(--akcent-color);
+}
+

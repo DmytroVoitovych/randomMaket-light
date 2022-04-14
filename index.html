@@ -31,80 +31,88 @@
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
-    <header>
-      <div class="container header">
-        <span class="header__logo">
-          <a
-            href=""
-            class="link__logo"
-            rel="noreferrer noopener"
-          >
-            <svg width="126" height="30">
-              <use
-                href="./images/symbol-defs.svg#icon-header"
-              ></use>
-            </svg>
-          </a>
-        </span>
-        <nav>
-          <ul class="header__list">
-            <li class="header__li">
-              <a
-                class="header__link"
-                rel="noreferrer noopener"
-                href=""
-                >Features</a
-              >
+    <div class="hero-img">
+      <header>
+        <div class="container header">
+          <span class="header__logo">
+            <a
+              href=""
+              class="link__logo"
+              rel="noreferrer noopener"
+            >
+              <svg width="126" height="30">
+                <use
+                  href="./images/symbol-defs.svg#icon-header"
+                ></use>
+              </svg>
+            </a>
+          </span>
+          <nav>
+            <ul class="header__list">
+              <li class="header__li">
+                <a
+                  class="header__link"
+                  rel="noreferrer noopener"
+                  href=""
+                  >Features</a
+                >
+              </li>
+              <li class="header__li">
+                <a
+                  class="header__link"
+                  rel="noreferrer noopener"
+                  href=""
+                  >Premium</a
+                >
+              </li>
+              <li class="header__li">
+                <a
+                  class="header__link"
+                  rel="noreferrer noopener"
+                  href=""
+                  >Pricing</a
+                >
+              </li>
+              <li class="header__li">
+                <a
+                  class="header__link"
+                  rel="noreferrer noopener"
+                  href=""
+                  >About</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <ul class="header__sign">
+            <li class="header__sign--li">
+              <a class="header__sign--link" type="button">
+                Sign in
+              </a>
             </li>
-            <li class="header__li">
-              <a
-                class="header__link"
-                rel="noreferrer noopener"
-                href=""
-                >Premium</a
+            <li class="header__sign--li">
+              <button
+                type="button"
+                class="header__sign--but"
               >
-            </li>
-            <li class="header__li">
-              <a
-                class="header__link"
-                rel="noreferrer noopener"
-                href=""
-                >Pricing</a
-              >
-            </li>
-            <li class="header__li">
-              <a
-                class="header__link"
-                rel="noreferrer noopener"
-                href=""
-                >About</a
-              >
+                Get Started
+              </button>
             </li>
           </ul>
-        </nav>
-        <ul class="header__sign">
-          <li class="header__sign--li">
-            <a class="header__sign--link" type="button">
-              Sign in
-            </a>
-          </li>
-          <li class="header__sign--li">
-            <button type="button" class="header__sign--but">
-              Get Started
-            </button>
-          </li>
-        </ul>
-      </div>
-    </header>
-    <main>
+        </div>
+      </header>
+
       <section class="hero">
-        <h1 class="hero__title">Propel your business.</h1>
-        <p class="hero__desc">
-          Propel comes with everything you need to get your
-          business rolling.
-        </p>
-        <button class="hero__but">Get Started</button>
+        <div class="container hero__pad">
+          <h1 class="hero__title">Propel your business.</h1>
+          <p class="hero__desc">
+            Propel comes with everything you need to get
+            your business rolling.
+          </p>
+          <button class="hero__but">Get Started</button>
+        </div>
       </section>
+    </div>
+    <main>
       <section class="fetures">
         <div class="container">
           <div class="features__block">
@@ -113,41 +121,53 @@
               Propel:
             </h2>
             <p class="features__desc">
+              <em>
+                Promoting your business and services with
+                Propel:</em
+              >
               A responsive, multi-page business template
               with everything you need propel your business.
             </p>
           </div>
           <ul class="features__list">
             <li class="features__li">
-              <svg width="" height="">
-                <use></use>
+              <svg width="60" height="60">
+                <use
+                  href="./images/symbol-defs.svg#icon-cofe"
+                ></use>
               </svg>
-              <h3 class="features__title">
+              <h3 class="features__title" lang="la">
                 Pro ad constituto
               </h3>
-              <p class="features__desc--item">
+              <p class="features__desc--item" lang="la">
                 Ne usu illud albucius abhor reant, partiendo
                 scriptorem mel ne.
               </p>
             </li>
             <li class="features__li">
-              <svg width="" height="">
-                <use></use>
+              <svg width="60" height="60">
+                <use
+                  href="./images/symbol-defs.svg#icon-bread"
+                ></use>
               </svg>
-              <h3 class="features__title">Eam commodo</h3>
-              <p class="features__desc--item">
+              <h3 class="features__title" lang="la">
+                Eam commodo
+              </h3>
+              <p class="features__desc--item" lang="la">
                 Fuisset intellegat delicatissimi ex mea. Cu
                 probo integre nec.
               </p>
             </li>
             <li class="features__li">
-              <svg width="" height="">
-                <use></use>
+              <svg width="60" height="60">
+                <use
+                  href="./images/symbol-defs.svg#icon-day"
+                ></use>
               </svg>
-              <h3 class="features__title">
+              <h3 class="features__title" lang="la">
                 Reformidans eis
               </h3>
-              <p class="features__desc--item">
+              <p class="features__desc--item" lang="la">
                 Facer nostro causae ei sed. Vix ex quidam
                 detraxit, vis ad nostro laoreet.
               </p>
@@ -156,81 +176,137 @@
         </div>
       </section>
       <section class="decor">
-        <div class="container">
+        <div class="container dec__bor">
           <picture>
-            <source />
-            <img src="" alt="Two boiled eggs" />
+            <source
+              srcset="
+                ./images/eggsw1x.webp 1x,
+                ./images/eggsw2x.webp 2x
+              "
+              type="image/webp"
+            />
+            <source
+              srcset="
+                ./images/eggs1x.jpg 1x,
+                ./images/eggs2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <img
+              src="./images/eggs1x.jpg"
+              alt="Two boiled eggs"
+            />
           </picture>
-          <h3 class="decor__title">
+          <h3 class="decor__title" lang="la">
             Illud decore voluptaria has at.
           </h3>
-          <p class="decor__desc">
-            Hinc invenire atomorum no vel. Ut vis nullam
-            blandit neglegentur, omittam perpetua voluptatum
-            qui eu. Iusto laoreet suscipit vis ad, ad ferri
-            tempor duo.
-          </p>
+          <div class="decir__pad">
+            <p class="decor__desc" lang="la">
+              <em>Illud decore voluptaria has at.</em>Hinc
+              invenire atomorum no vel. Ut vis nullam
+              blandit neglegentur, omittam perpetua
+              voluptatum qui eu. Iusto laoreet suscipit vis
+              ad, ad ferri tempor duo.
+            </p>
+            <span class="decor__span" lang="la"
+              >More About Us</span
+            >
+          </div>
         </div>
       </section>
       <section class="premium">
-        <div class="container">
+        <div class="container prem">
           <ul class="premium__list">
             <li class="premium__block">
               <picture
-                ><source />
-                <img src="" alt=""
+                ><source
+                  srcset="
+                    ./images/abriw1x.webp 1x,
+                    ./images/abriw2x.webp 2x
+                  "
+                  type="image/webp" />
+                <source
+                  srcset="
+                    ./images/abri1x.jpg 1x,
+                    ./images/abri2x.jpg 2x
+                  "
+                  type="image/jpg" />
+                <img
+                  src="./images/abri1x.jpg"
+                  alt="Абрикосы на блюдце"
               /></picture>
-              <h3>
-                <span
-                  >Ex tempor euismod sapientem ouis lexor
-                  pro.</span
-                >
-                Ad vix dicta iudico singulis, ius ex mollis
-                veritus.
-              </h3>
-              <p>
-                Possit tritani consectetuer eu his, nusquam
-                minimum ut per, eu eos ocurreret splendide
-                hendrerit. Dicant placerat democritum eos
-                id, sit mollis invidunt mediocritatem ei, ne
-                fuisset dolores periculis sed.
-              </p>
+              <div>
+                <h3 class="premium__title" lang="la">
+                  <span lang="la"
+                    >Ex tempor euismod sapientem ouis lexor
+                    pro.</span
+                  >
+                  Ad vix dicta iudico singulis, ius ex
+                  mollis veritus.
+                </h3>
+                <p class="premium__desc" lang="la">
+                  Possit tritani consectetuer eu his,
+                  nusquam minimum ut per, eu eos ocurreret
+                  splendide hendrerit. Dicant placerat
+                  democritum eos id, sit mollis invidunt
+                  mediocritatem ei, ne fuisset dolores
+                  periculis sed.
+                </p>
+              </div>
             </li>
             <li class="premium__block">
               <picture
-                ><source />
-                <img src="" alt=""
+                ><source
+                  srcset="
+                    ./images/oatw1x.webp 1x,
+                    ./images/oatw2x.webp 2x
+                  "
+                  type="image/webp" />
+                <source
+                  srcset="
+                    ./images/oat1x.jpg 1x,
+                    ./images/oat2x.jpg 2x
+                  "
+                  type="image/jpg" />
+                <img
+                  src="./images/oat1x.jpg"
+                  alt="Хлопья с персиками"
               /></picture>
-              <h3>
-                <span
-                  >Te elit antiopam vix zril recusabo ut
-                  pri.</span
-                >
-                Quas suscipit ad mea verear vivendo
-                tincidunt.
-              </h3>
-              <p>
-                Pri cu dico labores officiis, odio principes
-                complectitur ad sea. Sea id doctus
-                forensibus, nec lorem vocent aliquam eu.
-                Aliquid definitiones id cum, ad meliore
-                perpetua referrentur sed. Quas suscipit ad
-                mea verear vivendo tincidunt.
-              </p>
+              <div>
+                <h3 class="premium__title" lang="la">
+                  <span lang="la"
+                    >Te elit antiopam vix zril recusabo ut
+                    pri.</span
+                  >
+                  Quas suscipit ad mea verear vivendo
+                  tincidunt.
+                </h3>
+                <p class="premium__desc"  lang="la">
+                  Pri cu dico labores officiis, odio
+                  principes complectitur ad sea. Sea id
+                  doctus forensibus, nec lorem vocent
+                  aliquam eu. Aliquid definitiones id cum,
+                  ad meliore perpetua referrentur sed. Quas
+                  suscipit ad mea verear vivendo tincidunt.
+                </p>
+              </div>
             </li>
           </ul>
-          <h2>Wanna know more about the Premium deal?</h2>
-          <p>See the full range of Premium</p>
+          <h2 class="premium__title--base">Wanna know more about the Premium deal?</h2>
+          <p class="premium__desc--base">See the full range of Premium</p>
         </div>
       </section>
       <section class="party">
-        <span>Party On</span>
-        <p>
+        <div class="container party__grid">
+          <div>
+        <span class="party__span">Party On</span>
+        <p class="party__desc" >
           <b> Quas suscipit ad mea.</b>
           Pri cu dico labores officiis odio principes
           complectitur ad sea.
-        </p>
-        <button type="button">Get Started</button>
+        </p></div>
+        <button class="party__but" type="button">Get Started</button>
+        </div>
       </section>
     </main>
     <footer>
