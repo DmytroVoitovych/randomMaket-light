@@ -143,6 +143,8 @@ header {
   font-size: 14px;
   line-height: 1.7;
   color: var(--white-color);
+  -webkit-transition: color 350ms cubic-bezier(0.7, 0.23, 0.26, 0.5);
+  transition: color 350ms cubic-bezier(0.7, 0.23, 0.26, 0.5);
 }
 
 .header__link:hover, .header__link:focus {
@@ -151,6 +153,8 @@ header {
 
 .header__sign--link {
   cursor: pointer;
+  -webkit-transition: color 350ms cubic-bezier(0.7, 0.23, 0.26, 0.5);
+  transition: color 350ms cubic-bezier(0.7, 0.23, 0.26, 0.5);
 }
 
 .header__sign--link:hover {
